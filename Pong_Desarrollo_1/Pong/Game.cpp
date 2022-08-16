@@ -8,9 +8,9 @@ void RunGame()
    
     screen = CreateScreen();
 
-    Init(Screen& screen);
+    Init(screen);
 
-    MainLoop(Screen& screen);
+    MainLoop(screen);
 
     Close();
 }
