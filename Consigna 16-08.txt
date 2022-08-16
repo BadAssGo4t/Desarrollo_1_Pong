@@ -1,0 +1,9 @@
+1_main debe ser minimo
+
+2_ Modularizar creando archivos de codigo para diferentes parteso entidades
+del juego, minimamente: 
+- Pelota
+- Paleta
+- Juego/Aplicacion
+
+3_ trabajar...
