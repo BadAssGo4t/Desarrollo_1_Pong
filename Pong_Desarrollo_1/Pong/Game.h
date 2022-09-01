@@ -5,23 +5,9 @@
 #include "Player.h"
 
 
-void RunGame();
+int RunGame(void);
 
-struct Screen {
-    int screenWidth = 1200;
-    int screenHeight = 600;
-};
-Screen CreateScreen();
-
-
-void Init(Screen& screen);
-void MainLoop(Screen& screen, Player& player1, Player& player2);
-
-void CheckInput();
-void Draw();
-
-void Close();
-
-
+const int screenWidth = 900;
+const int screenHeight = 600;
 
 
